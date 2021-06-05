@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.big-wrapper{
+    width: 100%;
+    height: 400px;
+    background-image: url(./dd.jpg);
+    border-top:10px solid #53858c;
+}
+
+.header{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+
+.header p{
+    font-size: 25px;
+    color: white;
+    float: left;
+    font-weight: bold;
+    position:relative;
+    top: -12px;
+}
+
+.header ul{
+    float: right;
+}
+
+.header li{
+    float: left;
+    list-style: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 23px;
+}
+
+/* Banner Starts Here */
+
+.banner{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top:80px;
+}
+
+.banner h1{
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 100;
+
+}
+
+.banner p{
+
+    text-align: center;
+    color: #fff;
+    font-size:15px;
+    font-weight: 100;
+}
+
+.three-section{
+
+    width: 70%;
+    height: 245px;
+    margin: 0 auto;
+    padding: 70px 0px;
+
+}
+
+.main{
+    width:30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.main h2{
+    font-weight: 400;
+    font-size: 25px;
+    color: #53858c;
+    line-height: 35px;
+}
+
+.main p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main button{
+    width: 88px;
+    height: 42px;
+    background-color: #5385c1;
+    border: 0;
+    color: #fff;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #dbdbdb;
+}
+
+.add-border{
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #dbdbdb;
+}
+
+.team{
+    width: 100%;
+    background-color: #5385c1;
+    color: #fff;
+}
+
+.fixed-width{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+    padding-bottom: 75px;
+}
+
+.fixed-width h1{
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fixed-width p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+}
+
+.person{
+    width: 22%;
+    text-align: center;
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 24px;
+    margin-top: 20px;
+
+}
+
+.person img{
+    border-radius: 100%;
+    width: 80%;
+    padding-top: 10px;
+}
+
+.two-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding:40px 0;
+}
+
+.two-section h1{
+    color: #5385c1;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+
+.two-section p{
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.two-section .left{      
+    width: 45%;
+    float: left;
+    text-align: left;
+    margin-right: 66px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.left img{
+    width: 400px;
+}
+
+.two-section .right{      
+    width: 45%;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.right img{
+    width: 400px;
+}
+
+.two-section h2{
+    color:#5385c1;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    padding: 20px 0;
+      
+}
+
+.two-section p{
+    font-size: 20px;
+    line-height:25px;
+
+}
+
+.two-section img{
+    width:100%;
+
+}
+
+.two-section button{
+
+    width: 88px;
+    height: 42px;
+    background-color: #5385c1;
+    border: 0;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    border-color: #dbdbdb;
+}
+
+.footer{
+    width: 100%;
+}
+
+.wrap{
+    width: 70%;
+    margin: 0 auto;
+    border-top:2px solid gainsboro;
+
+}
+
+.wrap .fleft{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+.wrap .fright{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fright ul{
+    margin-right: 35px;
+}
+
+
+.fright i{
+    padding-right: 10px;
+}
